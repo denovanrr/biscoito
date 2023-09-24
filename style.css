@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+:root{
+    font-size: 62.5%;
+}
+.hide{
+    display: none;
+}
+
+body {
+background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+font-size: 1.6rem;
+display: grid;
+place-items: center;
+height: 100vh;
+}
+main{
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 428px;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, p{
+    padding: 10px;
+}

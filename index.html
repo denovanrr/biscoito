@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biscoito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <div class="screen1">
+        <h1>Qual é a sua sorte de hoje?</h1>
+        <p>Abra o biscoito e descubra!</p>
+        <img src="cookie.svg">
+        <button onclick = "HandleClick(event)">Quebrar</button>
+    </div>
+    <div class="screen2 hide">
+        <h1>Aqui está a sua sorte de hoje:</h1>
+        <h2>Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.</h2>
+        <img src="opened-cookie.svg">
+        <button onclick="Restart()">Abrir outro biscoito</button>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
